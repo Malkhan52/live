@@ -14,12 +14,11 @@ require '../db_connect.php';
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NITRUTSAV 2018</title>
+    <title>NITRUTSAV 2019</title>
 
     <meta name="keywords" content="nitrutsav,NU,nitr,cultural fest,fest,eastern india">
 
-    <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>  -->
-		<link href='../css/font-google.css' rel='stylesheet' type='text/css'> 
+	<link href='../css/font-google.css' rel='stylesheet' type='text/css'> 
 
     <!-- Bootstrap and Font Awesome css -->
     <link rel="stylesheet" href="../css/font-awesome.css">
@@ -37,30 +36,6 @@ require '../db_connect.php';
 	<!--form stylesheet-->
     <link rel="stylesheet" type="text/css" href="../css/form.css">
 	
-
-    <!-- Responsivity for older IE -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-
-    <!-- Favicon and apple touch icons-->	
-	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
-	
-	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/nu_black_48x48.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/nu_black_48x48.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/nu_black_48x48.png">
-	
 	<link rel="manifest" href="../img/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
@@ -72,33 +47,6 @@ require '../db_connect.php';
 
 </head>
 <style>
-
-@font-face {
-   font-family: patua;
-   src: url(../css/fonts/PatuaOne-Regular.otf);
-}
-
-@font-face {
-   font-family: norton;
-   src: url(../css/fonts/NORTON.ttf);
-}
-
-@font-face {
-   font-family: haymaker;
-   src: url(../css/fonts/Haymaker.ttf);
-}
-@font-face {
-   font-family: proxima;
-   src: url(../css/fonts/Proxima Nova Semibold.otf);
-}
-@font-face {
-   font-family: bazar;
-   src: url(../css/fonts/Bazar.ttf);
-}
-@font-face {
-   font-family: monthoers;
-   src: url(../css/fonts/Monthoers.ttf);
-}
 
 
 h1 {
@@ -118,10 +66,10 @@ input[type="radio"]{
 }
 
 </style>
-<body style="background-image:url(../assets/images/background.jpg) !important;">
+<body>
 		
 
-	<div id="all"  style="background-image:url(../assets/images/background.jpg) !important;">
+	<div id="all">
 
 		<div id="content">
             <div class="container" id="contact">
@@ -184,8 +132,6 @@ input[type="radio"]{
 		
 		</div>
 
-
-    
     <!-- #### JAVASCRIPT FILES ### -->
 	
     <script src="../js/jquery-1.11.0.min.js"></script>
@@ -193,19 +139,17 @@ input[type="radio"]{
 	<script>
         window.jQuery || document.write('<script src="../js/jquery-1.11.0.min.js"><\/script>')
     </script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     
-    <script src="../js/jquery.cookie.js"></script>
-		<script src="../js/jquery.form.min.js"></script>
-    <script src="../js/waypoints.min.js"></script>
-    <script src="../js/jquery.counterup.min.js"></script>
-    <script src="../js/jquery.parallax-1.1.3.js"></script>
-    <script src="../js/front.js"></script>
-	   <script type="text/javascript" src="../js/scroll.js"></script>
-       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
-       
-	
-    
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/jquery.form.js"></script>
+    <script type="text/javascript" src="../js/waypoints.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="../js/front.js"></script>
+	<script type="text/javascript" src="../js/scroll.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+   
 <script>
 
 $("#loginBtn").click(function(e){

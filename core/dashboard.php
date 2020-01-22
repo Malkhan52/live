@@ -38,12 +38,15 @@ $x=array("registered"=>$registered,"paid"=>$paid,"checkedin"=>$checkedin);
 
     <meta name="keywords" content="nitrutsav,NU,nitr,cultural fest,fest,eastern india">
 
-    <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>  -->
-		<link href='../css/font-google.css' rel='stylesheet' type='text/css'> 
+  <link rel="shortcut icon" type="images/png" href="/images/NU_LOGO_BW.png"/>
+  <!--=======Font Open Sans======-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Bootstrap and Font Awesome css -->
-    <link rel="stylesheet" href="../css/font-awesome.css">
-    <link rel="stylesheet" href="../css/bootstrap-min.css">
 
     <!-- Css animations  -->
     <link href="../css/animate.css" rel="stylesheet">
@@ -59,70 +62,11 @@ $x=array("registered"=>$registered,"paid"=>$paid,"checkedin"=>$checkedin);
     <link type="text/css" rel="stylesheet" href="./jsgrid-php-master/public/css/style.css">
     </head>
 
-	
-
-    <!-- Responsivity for older IE -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-
-    <!-- Favicon and apple touch icons-->	
-	<link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
-	
-	<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/nu_black_48x48.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/nu_black_48x48.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/nu_black_48x48.png">
-	
-	<link rel="manifest" href="../img/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-    <!-- owl carousel css -->
-
     <link href="../css/owl.carousel.css" rel="stylesheet">
     <link href="../css/owl.theme.css" rel="stylesheet">
 
 </head>
 <style>
-
-@font-face {
-   font-family: patua;
-   src: url(../css/fonts/PatuaOne-Regular.otf);
-}
-
-@font-face {
-   font-family: norton;
-   src: url(../css/fonts/NORTON.ttf);
-}
-
-@font-face {
-   font-family: haymaker;
-   src: url(../css/fonts/Haymaker.ttf);
-}
-@font-face {
-   font-family: proxima;
-   src: url(../css/fonts/Proxima Nova Semibold.otf);
-}
-@font-face {
-   font-family: bazar;
-   src: url(../css/fonts/Bazar.ttf);
-}
-@font-face {
-   font-family: monthoers;
-   src: url(../css/fonts/Monthoers.ttf);
-}
-
 
 h1 {
   text-align: center;
@@ -141,16 +85,12 @@ input[type="radio"]{
 }
 
 </style>
-<body style="background-image:url(../asset/images/background.jpg) !important;">
+<body>
 
-	<div id="all"  style="background-image:url(../asset/images/background.jpg) !important;">
+	<div id="all">
 
-        
-
-            
-		
-					
-		<section id="figures" class="bar background-pentagon no-mb" style="background-image:url(../assets/images/background.jpg) !important;">
+				
+		<section id="figures" class="bar background-pentagon no-mb">
             <div class="container">
                 <div class="row showcase">
 				
@@ -177,25 +117,23 @@ input[type="radio"]{
                             <h4><span class="counter" id="checkedin"><?php echo $x['checkedin']?></span><br>Checked In</h4>
                         </div>
                     </div>
-					     <div id="jsGrid"></div>
-						  
-						 <div class="col-md-12 text-center">
-                            <div class="heading">
-                                <a href="signout.php"><button style="font-family: patua;" type="button" class="btn btn-success">Logout</button></a>
-                            </div>
+					    <div id="jsGrid"></div>
+						 
+					
                 </div>
                 <!-- /.row -->
+			
             </div>
             <!-- /.container -->
         </section>
-   
-		
-		
+		<div class="col-md-12 text-center">
+						<div class="heading">
+							<a href="user_list.php"><button type="button" class="btn btn-success">Download User List</button></a>
+							<a href="ca_list.php"><button type="button" class="btn btn-success">Download CA List</button></a>
+							<a href="signout.php"><button type="button" class="btn btn-success">Logout</button></a>
+						</div>
+					</div>
 	</div>
-
-
-    <!-- #### JAVASCRIPT FILES ### -->
-
     <script src="../js/jquery-1.11.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="../js/jquery-1.11.0.min.js"><\/script>')

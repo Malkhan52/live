@@ -273,7 +273,7 @@ html {
                             </div>
           </div>
           <!-- <div class="col-md-12">
-            <h4 style="text-align:center" >In case of any query, drop a mail at nitrutsav2018@gmail.com</h4>
+            <h4 style="text-align:center" >In case of any query, drop a mail at nitrutsav2019@gmail.com</h4>
           </div> -->
         </div>
       </div>
