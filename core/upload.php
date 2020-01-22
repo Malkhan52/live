@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
   			$criteria = test($_POST["criteria"]);	
 
-  		$target_dir = "../uploads/";
+  		$target_dir = "uploads/";
 		$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 		if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {}
 		else {

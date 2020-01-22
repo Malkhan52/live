@@ -13,7 +13,7 @@ $_SESSION["signed_in"]=signed_in();
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NITRUTSAV 2018</title>
+    <title>NITRUTSAV 2019</title>
 
     <meta name="keywords" content="nitrutsav,NU,nitr,cultural fest,fest,eastern india">
 

@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>NITRUTSAV 2018</title>
+    <title>NITRUTSAV 2019</title>
     <meta name="keywords" content="nitrutsav,NU,nitr,cultural fest,fest,eastern india">
 
     <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>  -->
